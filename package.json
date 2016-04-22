@@ -1,0 +1,38 @@
+{
+  "name": "streamme",
+  "version": "0.0.1",
+  "description": "A module to interact with the StreamMe APIs.",
+  "author": {
+    "name": "matthewh",
+    "email": "hello@matthewh.in",
+    "url": "http://matthewh.in/"
+  },
+  "scripts": {
+    "test": "node examples/basic.js"
+  },
+  "private": false,
+  "main": "index.js",
+  "homepage": "https://github.com/MatthewNPM/streamme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatthewNPM/streamme"
+  },
+  "bugs": {
+    "url": "https://github.com/MatthewNPM/streamme/issues"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "keywords": [
+    "stream",
+    "me",
+    "streamme",
+    "api",
+    "livestreaming"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "sync-request": "^3.0.0",
+    "util": "^0.10.3"
+  }
+}
